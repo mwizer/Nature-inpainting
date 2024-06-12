@@ -63,6 +63,9 @@ ipython_config.py
 # CMake
 cmake-build-*/
 
+# Pytroch Lightning
+lightning_logs
+
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
