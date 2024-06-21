@@ -10,7 +10,7 @@ The Nature Image Inpainting project aims to reconstruct missing fragments in ima
 
 **Link:** [Nature Dataset on Kaggle](https://www.kaggle.com/datasets/heyitsfahd/nature)
 
-**Description:** The dataset contains over 100k images of nature belonging to five classes. This diverse dataset provides a rich resource for training and evaluating image inpainting models.
+**Description:** The dataset contains over 100k images of nature belonging to four classes. This diverse dataset provides a rich resource for training and evaluating image inpainting models.
 
 ## Problem Definition
 
@@ -27,12 +27,12 @@ The Nature Image Inpainting project aims to reconstruct missing fragments in ima
 
 ## How to Start
 1. **Clone the repository**
-2. **Download the dataset**
-3. **Install the requirements**
+2. **[Download the dataset](https://www.kaggle.com/datasets/heyitsfahd/nature)**
+3. **Install the requirements / pip install -r requirements.txt**
 4. Maciek tutaj ten poradnik z instalką zdjęc do pickli
 
 ## Explore Data
-To explore the data, go to the EDA (Exploratory Data Analysis) file. This file contains analyses that will help you understand the dataset much better.
+To explore the data, go to the **EDA.ipynb** (Exploratory Data Analysis) file. This file contains analyses that will help you understand the dataset much better.
 
 
 ## Notebooks Overview
