@@ -32,8 +32,14 @@ The Nature Image Inpainting project aims to reconstruct missing fragments in ima
 
 1. **Clone the repository**
 2. **[Download the dataset](https://www.kaggle.com/datasets/heyitsfahd/nature)**
-3. **Install the requirements / pip install -r requirements.txt**
-4. Maciek tutaj ten poradnik z instalką zdjęc do pickli
+3. **Unzip folders x64 or x128 into desired data folder inside project**
+4. **Install the requirements / pip install -r requirements-gpu.txt / requirements-cpu.txt**
+    - It is recommended to run project using GPU. 
+        - Please make sure that you have updated GPU drivers in case of running scripts locally
+5. **Open prepare_data.ipynb notebook**
+    - [Optional] Set your own path to data and size of image [64 or 128] that you want to process
+6. **Run all cells in notebook to generate all required folders and pickle files for learning**
+7. **Select and run notebook with model that you want to train**
 
 ## Explore Data
 
@@ -63,7 +69,7 @@ This notebook contains the implementation of the Variational Autoencoder (VAE) m
 
 ### DDPM.ipynb
 
-This notebook contains the implementation of a Diffusion model for image inpainting. It includes:
+This notebook contains the implementation of a Denoising Diffusion Probabilistic Model (DDPM) for image inpainting. It includes:
 
 - Model implementation
 - Training and evaluation
