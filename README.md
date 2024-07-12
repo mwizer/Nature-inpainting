@@ -13,6 +13,7 @@
     - [UNet.ipynb](#unetipynb)
     - [VAE.ipynb](#vaeipynb)
     - [DDPM.ipynb](#ddpmipynb)
+  - [Project Results](#project-results)
 
 ## Project Description
 
@@ -73,6 +74,7 @@ The Nature Image Inpainting project aims to reconstruct missing fragments in ima
 6. **Run all cells in notebook to generate all required folders**
    - [Optional] You can generate pickle files to use for learning
 7. **Select and run notebook with model that you want to train**
+
 > [!IMPORTANT]
 > Consider using Google Colab for training!  For this option, you'll need to utilize pickle files. Store them in your Google Drive and mount it at the start of each notebook you will use.
 
@@ -111,3 +113,17 @@ This notebook contains the implementation of a Denoising Diffusion Probabilistic
 - Verification on ground truth images
 - Display of model parameters
 - Hyperparameter experiments
+
+## Project Results
+
+The comparison of the trained models: `VAE`, `U-Net`, and `DDPM` is presented in the figure and table. The results demonstrate a clear advantage for the DDPM model. The U-Net model also performed satisfactorily, while the VAE model, being the simplest, showed only good results.
+
+![Comparison of model results](resources\figure_model_comparison.png)
+
+Comparison of model results: VAE, U-Net and DDPM:
+
+| **Model** | **MSE**  | **NRMSE** | **PSNR**  | **SSIM** |
+|-----------|----------|-----------|-----------|----------|
+| **VAE**   | 0.007474 | 0.087733  | 21.622611 | 0.623723 |
+| **U-Net** | 0.004065 | 0.065525  | 23.969002 | 0.830932 |
+| **DDPM**  | 0.001839 | 0.043395  | 27.529949 | 0.889963 |
