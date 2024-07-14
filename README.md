@@ -118,7 +118,7 @@ This notebook contains the implementation of a Denoising Diffusion Probabilistic
 
 The comparison of the trained models: `VAE`, `U-Net`, and `DDPM` is presented in the figure and table. The results demonstrate a clear advantage for the DDPM model. The U-Net model also performed satisfactorily, while the VAE model, being the simplest, showed only good results.
 
-![Comparison of model results](resources\figure_model_comparison.png)
+![Comparison of model results](/resources/figure_model_comparison.png)
 
 Comparison of model results: VAE, U-Net and DDPM:
 
